@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting Access to Your things</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registration</h2>
+        <form id="registrationForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="birthdate">Date of Birth:</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+            </div>
+            <div class="form-group">
+                <label for="preferences">Interest:</label>
+                <input type="text" id="preferences" name="preferences">
+            </div>
+            <div class="form-group">
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country" required>
+            </div>
+            <div class="form-group">
+                <label for="profilePic">Your Best Picture:</label>
+                <input type="file" id="profilePic" name="profilePic">
+            </div>
+            <button type="submit">Create an Account </button>
+        </form>
+    </div>
+    <script src="register.js"></script>
+</body>
+</html>
